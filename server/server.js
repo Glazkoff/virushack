@@ -63,3 +63,7 @@ app.use(function (req, res, next) {
 //   }
 //   if (connection) connection.release();
 // });
+
+app.listen(3001, () => {
+  console.log("Сервер запущен на http://localhost:3001");
+});
